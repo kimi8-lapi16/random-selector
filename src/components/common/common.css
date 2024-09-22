@@ -1,0 +1,86 @@
+:root {
+  --common--margin--10: 10px;
+  --common--margin--20: 20px;
+  --common--blue: rgb(100, 75, 248);
+  --common--yellow: rgb(255, 250, 70);
+}
+
+.margin__top--10 {
+  margin-top: var(--common--margin--10);
+}
+
+.margin__top--20 {
+  margin-top: var(--common--margin--20);
+}
+
+.margin__bottom--10 {
+  margin-bottom: var(--common--margin--10);
+}
+
+.margin__bottom--20 {
+  margin-bottom: var(--common--margin--20);
+}
+
+.margin__right--10 {
+  margin-right: var(--common--margin--10);
+}
+
+.margin__right--20 {
+  margin-right: var(--common--margin--20);
+}
+
+.margin__left--10 {
+  margin-left: var(--common--margin--10);
+}
+
+.margin__bottom--20 {
+  margin-left: var(--common--margin--20);
+}
+
+.root__container {
+  display: grid;
+  justify-content: center;
+  align-content: start;
+  background-color: rgba(210, 212, 225, 0.57);
+  height: 100vh;
+}
+
+.title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  color: var(--common--blue);
+  height: fit-content;
+}
+
+.error__box {
+  color: red;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  color: var(--common--yellow);
+  font-size: smaller;
+  font-weight: bolder;
+  background-color: var(--common--blue);
+  border-radius: 8px;
+}
+
+/* ユーザー入力セクション */
+.member__input__area {
+  display: flex;
+  flex-direction: row;
+}
+
+.member__name {
+  color: rgb(40, 37, 37);
+  display: block;
+}
+
+.member__name__textarea {
+  display: block;
+}
